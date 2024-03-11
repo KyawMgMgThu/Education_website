@@ -1,0 +1,81 @@
+:root {
+    --main-color: #0073e6;
+    --text-color: #ffffff;
+    --button-color: #0099cc;
+    --animation-color: #0066aa;
+    --light-color: #333333;
+    --light-bg: #1a1a1a;
+    --border-color: #333333;
+    --accent-color: #ff9933;
+}
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 600px;
+    border: 0.1px solid #c55757;
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container #result {
+    text-align: center;
+    color: var(--text-color);
+    margin: 1rem auto;
+    display: flex;
+}
+.container #to {
+    text-align: center;
+    color: var(--text-color);
+    font-weight: 500;
+    margin: 0.1rem auto;
+    display: flex;
+}
+#result span {
+    color: var(--text-color);
+    font-weight: 900;
+    margin: 0 0.3rem;
+}
+.container input {
+    width: 90%;
+    outline: none;
+    margin: 0.7rem;
+    padding: 0.9rem 1rem;
+    font-size: 18px;
+    color: var(--text-color);
+    border: 0.1px solid rgb(24, 225, 255);
+    background: none;
+    font-weight: 700;
+    border-radius: 8px;
+}
+.container select {
+    width: 90%;
+    outline: none;
+    margin: 0.7rem;
+    padding: 0.7rem 1rem;
+    font-size: 18px;
+    color: var(--text-color);
+    border: 0.1px solid rgb(24, 225, 255);
+    background: none;
+    font-weight: 700;
+    border-radius: 8px;
+}
+.container #btn,
+button {
+    padding: .5rem 1rem;
+    font-size: 18px;
+    color: #333333;
+    background: #007bff;
+    border-radius: .5rem;
+
+}
+.container #btn:hover {
+    background:  #007bff;; 
+    color: #333333;
+}
+

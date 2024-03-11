@@ -46,17 +46,6 @@ body{
     padding-left: 20rem;
 }
 
-body.dark{
-    --main-color: #0073e6;
-    --text-color: #ffffff;
-    --button-color: #0099cc;
-    --animation-color: #0066aa;
-    --light-color: #333333;
-    --light-bg: #1a1a1a;
-    --border-color: #333333;
-    --accent-color: #ff9933;
-}
-
 body.active{
     padding-left: 0;
 }
@@ -1172,8 +1161,57 @@ section{
     color: var(--main-color);
 }
 /* footer end */
+/* Tutorial start */
+  
 
+  
+  .content{
+    padding-bottom: 20px;
+ 
+  }
+  
+  .content .card.first {
+    margin-top: 80px;
+  }
+  
+  .card{
+    background: var(--light-color);
+    padding:50px;
+    width: auto;
+    margin: 20px 10px 0 10px;
+    box-shadow: 0 2px 4px rgba(100,100,100,.1);
+    border-radius: .5rem;
+  }
+  
+  .card h2 {
+    font-size:21px;
+    font-weight:500;
+  }
+  
+  .card h2 a {
+    color:var(--accent-color);
+    text-decoration:none;
+  }
+  
+  .card .date {
+    color:var(--border-color);
+    margin-top:10px;
+    font-size:14px;
+  }
+  
+  .card .text {
+    color:var(--text-color);
+    margin-top:20px;
+    font-size:15px;
+    line-height: 3rem;
+  }
+  .author{
+     display: flex;
+     font-size: 1.3rem;
+     color: var(--border-color);
+  }
 
+  /* Tutorial end */
 
 
 
